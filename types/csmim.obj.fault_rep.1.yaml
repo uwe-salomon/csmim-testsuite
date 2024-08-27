@@ -1,0 +1,46 @@
+id: csmim.obj.fault_rep.1
+supertypes: []
+description: An entity that provides fault reports.
+deprecated: false
+attributes: []
+resources:
+  - id: faults
+    type: dict[]
+    mode: r
+    description: List of faults.
+    dict-values:
+      - key: code
+        type: string
+        mandatory: true  # what if fault has no assigned code?
+        description:
+          Industry/supplier-defined fault code. Recommended to start with ATA
+          chapter and narrowing down to specific fault, e.g. "25-22-01-03".
+      - key: mfr
+        type: string
+        description: Manufacturer code (?) of equipment where fault originated.
+      - key: pn
+        type: string
+        description: Part number of equipment where fault originated.
+      - key: sn
+        type: string
+        description: Serial number of equipment where fault originated.
+      - key: id
+        type: string
+        description:
+          Self-assigned fault identifier. Should be unique for this part number
+          and fault.
+      - key: detected
+        type: utc
+        description: Time of fault identification.
+      - key: status
+        type: enum
+        description: Current status of the fault.
+        enum-values:
+          inactive: 0
+          active: 1
+          latched: 2
+      - key: text
+        type: string
+        description:
+          Human-readable description of the fault intended for maintenance
+          personnel.

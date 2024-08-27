@@ -1,0 +1,6 @@
+id: csmim.obj.circle.3
+supertypes: [csmim.obj.circle.2]
+description: Nothing.
+deprecated: false
+attributes: []
+resources: []
