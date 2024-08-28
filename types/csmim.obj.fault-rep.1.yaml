@@ -11,7 +11,7 @@ resources:
     dict-values:
       - key: code
         type: string
-        mandatory: true  # what if fault has no assigned code?
+        optional: false  # what if fault has no assigned code?
         description:
           Industry/supplier-defined fault code. Recommended to start with ATA
           chapter and narrowing down to specific fault, e.g. "25-22-01-03".

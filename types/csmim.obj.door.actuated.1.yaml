@@ -9,7 +9,7 @@ resources:
   - id: command
     mode: x
     type: void
-    mandatory: false
+    optional: true
     description: Command the door.
     parameters:
       - key: cmd

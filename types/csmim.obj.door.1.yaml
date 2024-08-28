@@ -4,7 +4,7 @@ description: Interface to a lockable door in the cabin, e.g. of a lavatory.
 deprecated: false
 attributes:
   - key: lavatory
-    mandatory: false
+    optional: true
     description: ID of the lavatory, if this is a lavatory door.
 resources:
   - id: state
