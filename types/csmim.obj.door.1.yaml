@@ -12,11 +12,16 @@ resources:
     type: enum
     description: State of the door.
     enum-values:
-      indefinite: 0
-      open: 1
-      closed but not locked: 2
-      closed and locked: 3
-      error: 4
+      - key: 0
+        name: indefinite
+      - key: 1
+        name: open
+      - key: 2
+        name: closed but not locked
+      - key: 3
+        name: closed and locked
+      - key: 4
+        name: error
   - id: status_msg
     mode: r
     type: string
