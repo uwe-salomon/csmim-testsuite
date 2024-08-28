@@ -1,0 +1,10 @@
+id: csmim.obj.invalid.1
+description: Nothing
+deprecated: false
+resources:
+  - id: ungültig
+    mode: rwx
+    type: integer[]
+  - id: valid_id
+    mode: rw
+    type: void
