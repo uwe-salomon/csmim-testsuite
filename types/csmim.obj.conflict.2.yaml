@@ -1,0 +1,4 @@
+id: csmim.obj.conflict.2
+supertypes: [csmim.obj.door.1, csmim.obj.lavatory.1]
+description: Nothing
+resources: []

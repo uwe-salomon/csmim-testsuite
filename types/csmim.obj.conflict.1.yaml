@@ -1,0 +1,8 @@
+id: csmim.obj.conflict.1
+supertypes: [csmim.obj.door.1]
+description: Nothing
+resources:
+  - id: state
+    type: int
+    mode: r
+    description: Nothing
