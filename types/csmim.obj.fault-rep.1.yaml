@@ -1,4 +1,4 @@
-id: csmim.obj.fault_rep.1
+id: csmim.obj.fault-rep.1
 supertypes: []
 description: An entity that provides fault reports.
 deprecated: false

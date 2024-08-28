@@ -1,5 +1,5 @@
 id: csmim.obj.circle.4
-supertypes: [csmim.obj.fault_rep.1, csmim.obj.door.1]
+supertypes: [csmim.obj.fault-rep.1, csmim.obj.door.1]
 description: Nothing.
 deprecated: false
 attributes: []

@@ -1,5 +1,5 @@
 id: csmim.obj.door.1
-supertypes: [csmim.obj.fault_rep.1]
+supertypes: [csmim.obj.fault-rep.1]
 description: Interface to a lockable door in the cabin, e.g. of a lavatory.
 deprecated: false
 attributes:
