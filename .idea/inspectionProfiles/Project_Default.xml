@@ -1,0 +1,39 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="clangTidyCheckOptions">
+        <list>
+          <ClangTidyCheckOption>
+            <option name="optionName" value="cppcoreguidelines-pro-type-member-init.IgnoreArrays" />
+            <option name="optionValue" value="true" />
+          </ClangTidyCheckOption>
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="CppClassCanBeFinal" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppDefaultCaseNotHandledInSwitchStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CppEnforceCVQualifiersOrder" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceCVQualifiersPlacement" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppEnforceTypeAliasCodeStyle" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CppInconsistentNaming" enabled="true" level="HINT" enabled_by_default="true" />
+    <inspection_tool class="CppLocalVariableMayBeConst" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppLocalVariableWithNonTrivialDtorIsNeverUsed" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppMemberFunctionMayBeStatic" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppNonExplicitConvertingConstructor" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppOverrideWithDifferentVisibility" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
+    <inspection_tool class="CppParameterMayBeConst" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppPolymorphicClassWithNonVirtualPublicDestructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
+    <inspection_tool class="CppTabsAreDisallowed" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
+    <inspection_tool class="CppTooWideScopeInitStatement" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppUnnecessaryWhitespace" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO" />
+    <inspection_tool class="CppUseStructuredBinding" enabled="true" level="TEXT ATTRIBUTES" enabled_by_default="true" editorAttributes="HINT" />
+    <inspection_tool class="CppWrongIncludesOrder" enabled="false" level="HINT" enabled_by_default="false" />
+    <inspection_tool class="Misra" enabled="true" level="WARNING" enabled_by_default="false">
+      <scope name="Sources to check" level="WARNING" enabled="true">
+        <option name="myMisraCPP2008Checks" value="-clion-misra-cpp2008-*" />
+        <option name="myMisraCPP2023Checks" value="clion-misra-cpp2023-*,-clion-misra-cpp2023-9-3-1" />
+      </scope>
+    </inspection_tool>
+  </profile>
+</component>
